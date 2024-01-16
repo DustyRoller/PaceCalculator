@@ -3,7 +3,6 @@ name: Swift
 on: [push]
 
 jobs:
-  build:
   macOS:
     runs-on: macOS-latest
     steps:
