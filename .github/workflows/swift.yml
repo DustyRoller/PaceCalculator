@@ -8,13 +8,12 @@ jobs:
       matrix:
         os:
           - ubuntu-22.04
-          - macOS-13
+          - macOS-14
         swift-version:
           - '5.9'
         swift-compat-ver:
           - '5'
           - '4.2'
-          - '4'
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v2
